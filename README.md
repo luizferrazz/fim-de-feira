@@ -6,6 +6,8 @@ Estamos desenvolvendo um pequeno marketplace com o objetivo de vender produtos p
 
 ![image](https://github.com/user-attachments/assets/05a0d282-15a9-473a-8fb7-4dcc5a438fcd)
 
+##### Integrantes do grupo: Nathalia Rosilda Sales dos Santos
+
 Um pouco mais do projeto você pode verificar no link do behance abaixo:
 
 [![Benance](  https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/gallery/172145347/Projeto-Academico-Fim-de-Feira)
