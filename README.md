@@ -14,6 +14,10 @@ Estamos desenvolvendo um pequeno marketplace com o objetivo de vender produtos p
 #### Requisitos Básicos do Sistema:
 ![image](https://github.com/user-attachments/assets/e956433f-2a23-422c-9873-8a1fd0e6dac0)
 
+#### APIs
+[Validação de CEP e preenchimento do endereço](https://www.gov.br/conecta/catalogo/apis/cep-codigo-de-enderecamento-postal/swagger-json/swagger_view#section/Campos-retornados) <br>
+[Geolocalização](https://app.abstractapi.com/api/ip-geolocation/tester)<br>
+[Validação de E-mail](https://app.abstractapi.com/api/email-validation/tester)
 
 Um pouco mais do projeto você pode verificar no link do behance abaixo:
 
