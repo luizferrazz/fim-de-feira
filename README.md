@@ -6,6 +6,8 @@ Estamos desenvolvendo um pequeno marketplace com o objetivo de vender produtos p
 
 ![image](https://github.com/user-attachments/assets/05a0d282-15a9-473a-8fb7-4dcc5a438fcd)
 
+#### Link [Figma](https://www.figma.com/design/VbEkkQXMi8SjH7VkcakTX7/Fim-de-Feira---Android?node-id=0-1&node-type=canvas&t=dpaC9scdSD1jIgMx-0)
+
 ##### Integrantes do grupo: Nathalia Rosilda Sales dos Santos, Luiz Augusto Siqueira Ferraz Cornélio, Rodrigo Jose do Nascimento
 
 Um pouco mais do projeto você pode verificar no link do behance abaixo:
