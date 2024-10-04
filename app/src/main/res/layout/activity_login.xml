@@ -5,25 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    tools:context=".LoginActivity"
-    android:background="@drawable/forma">
-
-
+    tools:context=".LoginActivity">
 
   <ImageView
-      android:layout_width="150dp"
-      android:layout_height="50dp"
+      android:layout_width="413dp"
+      android:layout_height="250dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintStart_toToptOf="parent"
       tools:ignore="MissingConstraints"
-      tools:layout_editor_absoluteY="16dp"
-      android:src="@drawable/fim_de_feira"/>
+      android:background="@drawable/forma"/>
+
 
   <ImageView
-      android:layout_width="150dp"
-      android:layout_height="50dp"
+      android:layout_width="222dp"
+      android:layout_height="160dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintStart_toToptOf="parent"
@@ -37,8 +33,9 @@
       android:layout_height="match_parent"
       android:gravity="center"
       android:orientation="vertical"
+      android:padding="16dp"
       tools:layout_editor_absoluteX="16dp"
-      tools:layout_editor_absoluteY="-195dp">
+      tools:layout_editor_absoluteY="53dp">
 
     <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="match_parent"
@@ -55,12 +52,11 @@
         android:layout_height="wrap_content"
         android:text="@string/login" />
 
+
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up" />
-
-
   </LinearLayout>
 
 
