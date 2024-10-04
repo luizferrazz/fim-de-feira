@@ -5,4 +5,5 @@
     <string name="password">Senha</string>
     <string name="reset_password">Esqueceu a senha?</string>
     <string name="login">Entrar</string>
+    <string name="sign_up">Cadastra-se</string>
 </resources>
