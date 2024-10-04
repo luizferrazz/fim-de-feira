@@ -19,6 +19,9 @@ Estamos desenvolvendo um pequeno marketplace com o objetivo de vender produtos p
 [Geolocalização](https://app.abstractapi.com/api/ip-geolocation/tester)<br>
 [Validação de E-mail](https://app.abstractapi.com/api/email-validation/tester)
 
+#### Sobre a Arquitetura:
+[Clean Architecture](https://www.youtube.com/watch?v=TgxHxcBcDM4)
+
 Um pouco mais do projeto você pode verificar no link do behance abaixo:
 
 [![Benance](  https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/gallery/172145347/Projeto-Academico-Fim-de-Feira)
