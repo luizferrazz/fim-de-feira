@@ -9,6 +9,10 @@
     tools:context=".LoginActivity"
     android:background="@drawable/forma">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"/>
 
 
   <ImageView
@@ -20,17 +24,6 @@
       tools:ignore="MissingConstraints"
       tools:layout_editor_absoluteY="16dp"
       android:src="@drawable/fim_de_feira"/>
-
-  <ImageView
-      android:layout_width="150dp"
-      android:layout_height="50dp"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintStart_toToptOf="parent"
-      tools:ignore="MissingConstraints"
-      tools:layout_editor_absoluteY="16dp"
-      android:src="@drawable/fim_de_feira"/>
-
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -41,25 +34,59 @@
       tools:layout_editor_absoluteY="-195dp">
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/user_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/Message_light"
+        android:background="@drawable/rounded_corners"
         android:hint="@string/user_name" />
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password_locker"
+        android:background="@drawable/rounded_corners"
         android:hint="@string/password" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login" />
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/login"
+        android:layout_marginTop="16dp" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginTop="8dp"
         android:text="@string/sign_up" />
 
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_password"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/forgot_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_email"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:clickable="true" />
 
   </LinearLayout>
 
