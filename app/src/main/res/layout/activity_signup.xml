@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/forma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toToptOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp"
+        android:src="@drawable/fim_de_feira"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-195dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_first_name_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_first_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="@string/signup_user_first_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_last_name_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_last_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="@string/signup_user_last_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_email_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="@string/signup_email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_id_number_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_id_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="@string/signup_id_number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_phone_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:hint="@string/signup_phone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_password_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_confirm_password_label"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_user_confirm_password_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_user_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_corners"
+            android:layout_marginTop="8dp"
+            android:text="@string/sign_up" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
