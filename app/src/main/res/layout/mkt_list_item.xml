@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?attr/selectableItemBackground"
+    android:elevation="4dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Logo do Mercado -->
+        <ImageView
+            android:id="@+id/supermarketLogoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoTeste" />
+
+        <!-- Nome do Mercado -->
+        <TextView
+            android:id="@+id/supermarketNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Mercado"
+            android:textColor="@color/darkGreen"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Bairro do Mercado -->
+        <TextView
+            android:id="@+id/supermarketNeighborhoodTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centro"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <!-- Status do Mercado -->
+        <TextView
+            android:id="@+id/supermarketStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aberto"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

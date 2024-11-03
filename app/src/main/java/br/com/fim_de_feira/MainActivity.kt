@@ -23,5 +23,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        private fun initRecyclerView(){
+
+
+
+        }
+
     }
 }
