@@ -1,4 +1,6 @@
 <resources>
+    <!-- Tela Principal -->
+    <string name="markets">Markets</string>
     <!-- Tela de Login -->
     <string name="app_name">Fim de Feira</string>
     <string name="user_name">User</string>

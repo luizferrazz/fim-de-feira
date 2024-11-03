@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Tela Principal -->
+    <string name="markets">Mercados</string>
+
     <!-- Tela de Login -->
     <string name = "app_name">Fim de Feira</string>
     <string name="user_name">Usuário</string>
@@ -22,4 +25,10 @@
     <string name="signup_phone">+55 (99) 99999-9999</string>
     <string name="signup_password_label">Senha *</string>
     <string name="signup_confirm_password_label">Confirme sua Senha *</string>
+
+    <!-- Tela de Busca -->
+
+    <!-- Tela de Produtos -->
+
+    <!-- Tela de Lojas -->
 </resources>
