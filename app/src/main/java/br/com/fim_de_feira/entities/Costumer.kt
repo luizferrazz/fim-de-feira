@@ -1,5 +1,2 @@
 package br.com.fim_de_feira.entities
-
-class Costumer {
-
-}
+data class Costumer(val name: String)

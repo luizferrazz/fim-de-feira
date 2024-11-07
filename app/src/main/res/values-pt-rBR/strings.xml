@@ -25,10 +25,13 @@
     <string name="signup_phone">+55 (99) 99999-9999</string>
     <string name="signup_password_label">Senha *</string>
     <string name="signup_confirm_password_label">Confirme sua Senha *</string>
+    <string name="register_acc">Registrar</string>
 
     <!-- Tela de Busca -->
+    <string name="search_label">Buscar Produto</string>
+    <string name="products_label">Produtos</string>
 
     <!-- Tela de Produtos -->
-
+    <string name="add_to_cart">Adicionar ao Carrinho</string>"
     <!-- Tela de Lojas -->
 </resources>

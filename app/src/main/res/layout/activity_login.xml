@@ -9,6 +9,7 @@
     tools:context=".LoginActivity"
     android:background="@drawable/forma">
 
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -36,7 +37,7 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/user_input"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:layout_marginBottom="8dp"
         android:inputType="textEmailAddress"
         android:drawableStart="@drawable/message_light"
@@ -46,8 +47,8 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/password_input"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:inputType="textPassword"
+        android:layout_height="36dp"
         android:drawableLeft="@drawable/password_locker"
         android:background="@drawable/rounded_corners"
         android:hint="@string/password" />

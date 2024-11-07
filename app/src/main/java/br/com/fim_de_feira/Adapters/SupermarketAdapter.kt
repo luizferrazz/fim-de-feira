@@ -26,7 +26,6 @@ class SupermarketAdapter : RecyclerView.Adapter<SupermarketAdapter.SupermarketVi
 
     fun setSupermarkets(supermarkets: List<Supermarket>) {
         this.supermarkets = supermarkets
-        notifyDataSetChanged()
     }
 
     class SupermarketViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -36,7 +35,7 @@ class SupermarketAdapter : RecyclerView.Adapter<SupermarketAdapter.SupermarketVi
         private val supermarketStatus: TextView = itemView.findViewById(R.id.supermarketStatusTextView)
 
         fun bind(supermarket: Supermarket) {
-            supermarketLogo.setImageResource(R.drawable.logoTeste)
+            supermarketLogo.setImageResource(R.drawable.logo_teste)
             supermarketName.text = supermarket.name
             supermarketNeighborhood.text = supermarket.address.neighborhood
             supermarketStatus.text = if (supermarket.status) "Aberto" else "Fechado"
