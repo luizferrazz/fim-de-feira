@@ -1,6 +1,7 @@
 <resources>
     <!-- Tela Principal -->
     <string name="markets">Markets</string>
+
     <!-- Tela de Login -->
     <string name="app_name">Fim de Feira</string>
     <string name="user_name">User</string>
@@ -23,4 +24,14 @@
     <string name="signup_phone">+55 (99) 99999-9999</string>
     <string name="signup_password_label">Password *</string>
     <string name="signup_confirm_password_label">Confirm your Password *</string>
+    <string name="register_acc">Register</string>
+
+    <!-- Tela de Busca -->
+    <string name="search_label">Search Product</string>
+    <string name="products_label">Products</string>
+
+    <!-- Tela de Produtos -->
+    <string name="add_to_cart">Add to Cart</string>"
+
+
 </resources>

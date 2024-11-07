@@ -163,7 +163,7 @@
             android:layout_height="30dp"
             android:background="@drawable/rounded_corners"
             android:layout_marginTop="8dp"
-            android:text="@string/sign_up" />
+            android:text="@string/register_acc" />
 
     </LinearLayout>
 
