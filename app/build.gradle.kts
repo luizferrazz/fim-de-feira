@@ -1,5 +1,4 @@
 plugins {
-    alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.googleService)
     id("kotlin-parcelize")
@@ -36,13 +35,12 @@ android {
         jvmTarget = "1.8"
     }
 
-    viewBinding{
-        enable = true;
+    viewBinding {
+        enable = true
     }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -58,5 +56,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
 }
