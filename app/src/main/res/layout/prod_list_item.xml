@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?attr/selectableItemBackground"
+    android:elevation="4dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corners">
+
+        <!-- Recomendação de consumo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/productConsumeTextView"
+            android:text="Product.consumeDays"
+            style="@style/ProductConsumeTextStyle" />
+
+        <!-- Logo do Produto -->
+        <ImageView
+            android:id="@+id/productLogoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_prod" />
+
+        <!-- Nome do Produto -->
+        <TextView
+            android:id="@+id/productNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product.name"
+            android:textColor="@color/dark_green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Valor do Produto -->
+        <TextView
+            android:id="@+id/supermarketNeighborhoodTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product.price"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_cart"
+            android:background="@drawable/rounded_corners"
+            style="@style/ButtonStyle"
+            />
+    </LinearLayout>
+
+</FrameLayout>

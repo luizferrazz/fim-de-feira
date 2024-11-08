@@ -2,61 +2,93 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/login_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    android:padding="16dp"
+    tools:context=".LoginActivity"
+    android:background="@drawable/forma">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"/>
+
 
   <ImageView
-      android:layout_width="413dp"
-      android:layout_height="250dp"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintStart_toToptOf="parent"
-      tools:ignore="MissingConstraints"
-      android:background="@drawable/forma"/>
-
-
-  <ImageView
-      android:layout_width="222dp"
-      android:layout_height="160dp"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintStart_toToptOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
       tools:ignore="MissingConstraints"
       tools:layout_editor_absoluteY="16dp"
       android:src="@drawable/fim_de_feira"/>
-
 
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:gravity="center"
       android:orientation="vertical"
-      android:padding="16dp"
       tools:layout_editor_absoluteX="16dp"
-      tools:layout_editor_absoluteY="53dp">
+      tools:layout_editor_absoluteY="-195dp">
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/user_input"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/message_light"
+        android:background="@drawable/rounded_corners"
         android:hint="@string/user_name" />
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password_input"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_height="36dp"
+        android:drawableLeft="@drawable/password_locker"
+        android:background="@drawable/rounded_corners"
         android:hint="@string/password" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login" />
-
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/login"
+        android:layout_marginTop="16dp" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginTop="8dp"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_up" />
+        android:text="@string/reset_password"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/forgot_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_email"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:clickable="true" />
+
   </LinearLayout>
 
 

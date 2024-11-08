@@ -1,8 +1,37 @@
 <resources>
+    <!-- Tela Principal -->
+    <string name="markets">Markets</string>
+
+    <!-- Tela de Login -->
     <string name="app_name">Fim de Feira</string>
     <string name="user_name">User</string>
     <string name="password">Password</string>
     <string name="reset_password">Forgot passaword?</string>
+    <string name="reset_email">Forgot E-mail?</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign up</string>
+
+    <!-- Tela de Cadastro -->
+    <string name="signup_first_name_label">First Name *</string>
+    <string name="signup_last_name_label">Last Name *</string>
+    <string name="signup_email_label">E-mail *</string>
+    <string name="signup_id_number_label">ID Number *</string>
+    <string name="signup_user_first_name">Insert your first name</string>
+    <string name="signup_user_last_name">Insert your last name</string>
+    <string name="signup_email">Insert your e-mail</string>
+    <string name="signup_id_number">Insert your ID Number (numbers only)</string>
+    <string name="signup_phone_label">Phone Number *</string>
+    <string name="signup_phone">+55 (99) 99999-9999</string>
+    <string name="signup_password_label">Password *</string>
+    <string name="signup_confirm_password_label">Confirm your Password *</string>
+    <string name="register_acc">Register</string>
+
+    <!-- Tela de Busca -->
+    <string name="search_label">Search Product</string>
+    <string name="products_label">Products</string>
+
+    <!-- Tela de Produtos -->
+    <string name="add_to_cart">Add to Cart</string>"
+
+
 </resources>
