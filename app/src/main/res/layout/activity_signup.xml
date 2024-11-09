@@ -37,133 +37,142 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_first_name_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_first_name_input"
+            android:id="@+id/edtTextFirstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_user_first_name" />
+            android:hint="@string/signup_user_first_name"
+            style="@style/InputTextStyle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_last_name_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_last_name_input"
+            android:id="@+id/edtTextLastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_user_last_name" />
+            android:hint="@string/signup_user_last_name"
+            style="@style/InputTextStyle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_email_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_email_input"
+            android:id="@+id/edtTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_email" />
+            android:hint="@string/signup_email"
+            style="@style/InputTextStyle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_id_number_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_id_number_input"
+            android:id="@+id/edtTextIdNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_id_number" />
+            android:hint="@string/signup_id_number"
+            style="@style/InputTextStyle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_phone_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_phone_input"
+            android:id="@+id/edtTextPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_phone" />
+            android:hint="@string/signup_phone"
+            style="@style/InputTextStyle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_password_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginBottom="4dp"
+            />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_password_input"
+            android:id="@+id/edtTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners" />
+            android:background="@drawable/rounded_corners"
+            style="@style/InputTextStyle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_confirm_password_label"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/signup_user_confirm_password_label"
+            android:id="@+id/edtTextConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners" />
+            android:background="@drawable/rounded_corners"
+            style="@style/InputTextStyle"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/signup_user_button"
+            android:id="@+id/btnRegisterUser"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:background="@drawable/rounded_corners"
             android:layout_marginTop="8dp"
-            android:text="@string/register_acc" />
+            android:text="@string/register_acc"
+            style="@style/WhiteButtonStyle"/>
 
     </LinearLayout>
 
