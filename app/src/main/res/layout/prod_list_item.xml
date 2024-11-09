@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="@string/add_to_cart"
             android:background="@drawable/rounded_corners"
-            style="@style/ButtonStyle"
+            style="@style/GreenButtonStyle"
             />
     </LinearLayout>
 

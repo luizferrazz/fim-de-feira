@@ -23,13 +23,4 @@ class authLoginActivity: ViewModel() {
                 }
         }
     }
-
-    fun createCostumer(
-        person: Person,
-        password: String,
-        confirmPassword: String,
-        onSuccess: () -> Unit,
-        onFailure: (String) -> Unit
-    )
-
 }

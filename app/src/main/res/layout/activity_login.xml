@@ -42,7 +42,8 @@
         android:inputType="textEmailAddress"
         android:drawableStart="@drawable/message_light"
         android:background="@drawable/rounded_corners"
-        android:hint="@string/user_name" />
+        android:hint="@string/user_name"
+        style="@style/InputTextStyle"/>
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/password_input"
@@ -51,23 +52,26 @@
         android:layout_height="36dp"
         android:drawableLeft="@drawable/password_locker"
         android:background="@drawable/rounded_corners"
-        android:hint="@string/password" />
+        android:hint="@string/password"
+        style = "@style/InputTextStyle"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login_button"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:background="@drawable/rounded_corners"
         android:text="@string/login"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        style="@style/WhiteButtonStyle"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/signup_button"
+        android:id="@+id/btnSignup"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:background="@drawable/rounded_corners"
         android:layout_marginTop="8dp"
-        android:text="@string/sign_up" />
+        android:text="@string/sign_up"
+        style="@style/WhiteButtonStyle" />
 
     <TextView
         android:id="@+id/forgot_password"

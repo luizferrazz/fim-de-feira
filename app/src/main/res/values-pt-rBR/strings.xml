@@ -31,6 +31,15 @@
     <string name="search_label">Buscar Produto</string>
     <string name="products_label">Produtos</string>
 
+    <!-- Erros de Autenticação -->
+    <string name="invalid_first_name">Primeiro nome não pode estar vazio</string>
+    <string name="invalid_last_name">Último nome não pode estar vazio</string>
+    <string name="invalid_email">Email inválido</string>"
+    <string name="invalid_password">Senha inválida</string>"
+    <string name="password_not_match">Senha e Confirmação de Senha não estão iguais</string>
+    <string name="invalid_phone">Telefone inválido</string>
+    <string name="invalid_id_number">CPF inválido</string>
+
     <!-- Tela de Produtos -->
     <string name="add_to_cart">Adicionar ao Carrinho</string>"
     <!-- Tela de Lojas -->
