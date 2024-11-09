@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533771450675",
+    "project_id": "fim-de-feira-ae005",
+    "storage_bucket": "fim-de-feira-ae005.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533771450675:android:04f45086db5824897ce646",
+        "android_client_info": {
+          "package_name": "br.com.fim_de_feira"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3ciOyspwN3_dJUAUJ64tHYX3CejHkew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
