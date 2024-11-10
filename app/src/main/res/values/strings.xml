@@ -34,12 +34,8 @@
     <string name="add_to_cart">Add to Cart</string>"
 
     <!-- Erros de Autenticação -->
-    <string name="invalid_first_name">First name cannot be empty</string>
-    <string name="invalid_last_name">Last name cannot be empty</string>
-    <string name="invalid_email">Invalid Email</string>"
-    <string name="invalid_password">Invalid Password</string>"
-    <string name="password_not_match">Password and Confirm Password do not match</string>
-    <string name="invalid_phone">Invalid Phone Number</string>
-    <string name="invalid_id_number">Invalid ID Number</string>
+    <string name="on_success">User successfully created!</string>
+    <string name="on_failure">Error creating user</string>
+    <string name="error_saving_data">Error saving user"</string>
 
 </resources>

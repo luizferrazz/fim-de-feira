@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.googleService)
+    id("com.android.application")
     id("kotlin-parcelize")
 }
 
