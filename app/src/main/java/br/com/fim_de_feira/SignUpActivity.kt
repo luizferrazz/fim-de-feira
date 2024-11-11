@@ -1,5 +1,6 @@
 package br.com.fim_de_feira
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -45,6 +46,11 @@ class SignUpActivity : AppCompatActivity() {
 
             authViewModel.createUser(costumer, onSuccess = {
                 Toast.makeText(this, getString(R.string.on_success), Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+                finish()
+
             }, onFailure = {
                 Toast.makeText(this, getString(R.string.on_failure), Toast.LENGTH_SHORT).show()
             })

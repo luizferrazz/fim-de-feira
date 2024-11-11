@@ -4,7 +4,7 @@
 
     <!-- Tela de Login -->
     <string name="app_name">Fim de Feira</string>
-    <string name="user_name">User</string>
+    <string name="user_email">Email</string>
     <string name="password">Password</string>
     <string name="reset_password">Forgot passaword?</string>
     <string name="reset_email">Forgot E-mail?</string>
@@ -37,5 +37,6 @@
     <string name="on_success">User successfully created!</string>
     <string name="on_failure">Error creating user</string>
     <string name="error_saving_data">Error saving user"</string>
+    <string name = "login_failure">Incorrect email or password</string>
 
 </resources>

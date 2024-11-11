@@ -5,7 +5,7 @@
 
     <!-- Tela de Login -->
     <string name = "app_name">Fim de Feira</string>
-    <string name="user_name">Usuário</string>
+    <string name="user_email">Email</string>
     <string name="password">Senha</string>
     <string name="reset_password">Esqueceu a senha?</string>
     <string name="reset_email">Esqueceu seu e-mail?</string>
@@ -35,6 +35,7 @@
     <string name="on_success">Usuário criado com sucesso!</string>
     <string name="on_failure">Erro ao criar usuário</string>
     <string name="error_saving_data">Erro ao salvar o usuário"</string>
+    <string name = "login_failure">Email ou senha incorretos</string>
 
     <!-- Tela de Produtos -->
     <string name="add_to_cart">Adicionar ao Carrinho</string>"
