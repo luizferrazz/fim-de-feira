@@ -30,7 +30,9 @@ class authSignUpActivity : ViewModel() {
         if (!emailRegex.matches(costumer.email)) {
             onFailure.invoke()
             return
-        }// Validação de telefone com regex
+        }
+
+        // Validação de telefone com regex
         val phoneRegex = Regex("^\\s*(\\d{2})\\s*(\\d{4,5}|\\d{0})\\s*(\\d{4}|\\d{0})\\s*$")
         if (!phoneRegex.matches(costumer.phone)) {
             onFailure.invoke()
@@ -43,7 +45,7 @@ class authSignUpActivity : ViewModel() {
         }
 
         if (costumer.password.length < 6 || costumer.idNumber.length != 11 ||
-            costumer.phone.length < 11) {
+            costumer.phone.length != 11) {
             onFailure.invoke()
             return
         }

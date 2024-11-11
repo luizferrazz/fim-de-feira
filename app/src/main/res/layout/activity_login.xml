@@ -35,18 +35,18 @@
       tools:layout_editor_absoluteY="-195dp">
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/user_input"
+        android:id="@+id/edtTextEmail"
         android:layout_width="match_parent"
         android:layout_height="36dp"
         android:layout_marginBottom="8dp"
         android:inputType="textEmailAddress"
         android:drawableStart="@drawable/message_light"
         android:background="@drawable/rounded_corners"
-        android:hint="@string/user_name"
+        android:hint="@string/user_email"
         style="@style/InputTextStyle"/>
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/password_input"
+        android:id="@+id/edtTextPassword"
         android:layout_width="match_parent"
         android:inputType="textPassword"
         android:layout_height="36dp"
