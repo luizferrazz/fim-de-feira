@@ -37,6 +37,15 @@
     <string name="on_success">User successfully created!</string>
     <string name="on_failure">Error creating user</string>
     <string name="error_saving_data">Error saving user"</string>
-    <string name = "login_failure">Incorrect email or password</string>
+    <string name="login_failure">Incorrect email or password</string>
+
+    <!-- Drawer Menu -->
+    <string name="navigation_drawer_open">Open navigation menu</string>
+    <string name="navigation_drawer_close">Close navigation menu</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_service_orders">Service Orders</string>
+    <string name="menu_logout">Logout</string>
 
 </resources>

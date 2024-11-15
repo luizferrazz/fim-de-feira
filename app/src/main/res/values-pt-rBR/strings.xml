@@ -40,4 +40,13 @@
     <!-- Tela de Produtos -->
     <string name="add_to_cart">Adicionar ao Carrinho</string>"
     <!-- Tela de Lojas -->
+
+    <!-- Drawer Menu -->
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name = "menu_home">Início</string>
+    <string name = "menu_profile">Perfil</string>
+    <string name = "menu_search">Pesquisar</string>
+    <string name = "menu_service_orders">Pedidos Realizados</string>
+    <string name = "menu_logout">Logout</string>
 </resources>
