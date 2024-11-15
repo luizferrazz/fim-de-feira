@@ -29,7 +29,5 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
-
-
     <style name="Theme.Fim_de_feira" parent="Base.Theme.Fim_de_feira" />
 </resources>

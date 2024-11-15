@@ -2,12 +2,12 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="app">
+      <SelectionState runConfigName="Fim de Feira">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-11-08T14:30:38.119619100Z">
+        <DropdownSelection timestamp="2024-11-14T21:24:22.273799600Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\luizs\.android\avd\Pixel_7_API_35.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=RQ8T20ABF8L" />
             </handle>
           </Target>
         </DropdownSelection>
