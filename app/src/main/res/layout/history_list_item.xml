@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="99dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/marketHistoryXml"
+            android:layout_width="199dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            app:srcCompat="@drawable/logo_teste" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderHistoryNameText"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="start"
+                android:text="Nome do Mercado"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderHistoryNeighborhoodTextView"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:gravity="start"
+                android:padding="0dp"
+                android:text="Data e Hora do Pedido" />
+
+            <Button
+                android:id="@+id/verDetalhes"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="start"
+                android:padding="0dp"
+                android:text="Ver Detalhes"
+                android:textColor="@color/dark_green"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
