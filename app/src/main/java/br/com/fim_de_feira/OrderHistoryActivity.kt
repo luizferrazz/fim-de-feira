@@ -10,8 +10,9 @@ import br.com.fim_de_feira.databinding.ActivityOrderhistoryBinding
 import br.com.fim_de_feira.entities.OrderHistory
 
 class OrderHistoryActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityOrderhistoryBinding;
-    private lateinit var recyclerView: RecyclerView;
+
+    private lateinit var binding: ActivityOrderhistoryBinding
+    private lateinit var recyclerView: RecyclerView
     private lateinit var orderHistoryAdapter: OrderHistoryAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,10 +23,17 @@ class OrderHistoryActivity : AppCompatActivity() {
 
         recyclerView = binding.orderHistoryRecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this)
-        orderHistoryAdapter = OrderHistoryAdapter()
+        orderHistoryAdapter = OrderHistoryAdapter(this)
         recyclerView.adapter = orderHistoryAdapter
 
+        // Create a list of OrderHistory objects
+        val orderHistoryList = listOf(
+            OrderHistory(supermarket = "Supermarket A", date = "2023-10-01"),
+            OrderHistory(supermarket = "Supermarket B", date = "2023-10-02"),
+            OrderHistory(supermarket = "Supermarket C", date = "2023-10-03")
+        )
 
-
+        // Set the list to the adapter
+        orderHistoryAdapter.setOrders(orderHistoryList)
     }
 }
