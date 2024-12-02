@@ -1,6 +1,6 @@
 package br.com.fim_de_feira.entities
 
-data class ServiceOrder (
+abstract class ServiceOrder (
     var id: Int,
     var costumer: Costumer,
     var supermarket: Supermarket,

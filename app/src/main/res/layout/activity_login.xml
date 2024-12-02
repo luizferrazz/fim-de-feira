@@ -5,95 +5,101 @@
     android:id="@+id/login_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+
     tools:context=".LoginActivity"
-    android:background="@drawable/forma">
-
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"/>
+    android:background="@color/white">
 
 
   <ImageView
-      android:layout_width="150dp"
-      android:layout_height="50dp"
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="260dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/forma"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+  <ImageView
+      android:layout_width="190dp"
+      android:layout_height="25dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/fim_feira"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      tools:ignore="MissingConstraints"
-      tools:layout_editor_absoluteY="16dp"
-      android:src="@drawable/fim_de_feira"/>
+      app:layout_constraintVertical_bias="0.41000003" />
 
   <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:id="@+id/linearLayout"
+      android:layout_width="354dp"
+      android:layout_height="370dp"
       android:gravity="center"
       android:orientation="vertical"
-      tools:layout_editor_absoluteX="16dp"
-      tools:layout_editor_absoluteY="-195dp">
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.428"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.74">
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edtTextEmail"
+        style="@style/inputEmail"
         android:layout_width="match_parent"
-        android:layout_height="36dp"
-        android:layout_marginBottom="8dp"
-        android:inputType="textEmailAddress"
-        android:drawableStart="@drawable/message_light"
-        android:background="@drawable/rounded_corners"
-        android:hint="@string/user_email"
-        style="@style/InputTextStyle"/>
+        android:layout_height="wrap_content"
+        android:hint="@string/email" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edtTextPassword"
+        style="@style/inputSenha"
         android:layout_width="match_parent"
-        android:inputType="textPassword"
-        android:layout_height="36dp"
-        android:drawableLeft="@drawable/password_locker"
-        android:background="@drawable/rounded_corners"
-        android:hint="@string/password"
-        style = "@style/InputTextStyle"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/password" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:background="@drawable/rounded_corners"
-        android:text="@string/login"
-        android:layout_marginTop="16dp"
-        style="@style/WhiteButtonStyle"/>
+        style="@style/myButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/singIn" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSignup"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:background="@drawable/rounded_corners"
-        android:layout_marginTop="8dp"
-        android:text="@string/sign_up"
-        style="@style/WhiteButtonStyle" />
+        style="@style/myButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/signUp" />
 
-    <TextView
-        android:id="@+id/forgot_password"
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reset_password"
-        android:textColor="@color/white"
-        android:layout_marginTop="8dp"
-        android:textStyle="bold"
-        android:clickable="true" />
+        android:layout_marginTop="15dp"
+        android:hint="@string/forgotEmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        style="@style/esqueceu"/>
 
-    <TextView
-        android:id="@+id/forgot_email"
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reset_email"
-        android:textColor="@color/white"
-        android:layout_marginTop="8dp"
-        android:textStyle="bold"
-        android:clickable="true" />
+        android:hint="@string/forgotPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        style="@style/esqueceu"/>
 
   </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

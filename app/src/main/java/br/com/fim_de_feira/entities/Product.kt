@@ -6,7 +6,8 @@ data class Product (
     var quantity : Int,
     var category : String,
     var description: String,
-    var weight : Double,
+    var weight : String,
     var brand : String,
     var consumeDays : Int,
+
 )
