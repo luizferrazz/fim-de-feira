@@ -6,4 +6,8 @@
     <color name="lightGreen">#00B72D</color>
     <color name="gray">#999999</color>
     <color name="red">#ff0000</color>
+
+    <color name="greenFimDeFeira">#00652C</color>
+    <color name="mygreenFimDeFeira">#00B72D</color>
+    <color name="grayFimDeFeira">#999999</color>
 </resources>

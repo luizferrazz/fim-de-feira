@@ -5,176 +5,171 @@
     android:id="@+id/signup_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     tools:context=".SignUpActivity"
-    android:background="@drawable/forma">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"/>
+    android:background="@color/white">
 
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/forma2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="16dp"
-        android:src="@drawable/fim_de_feira"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        style="@style/createAcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="@string/creating_account"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.37" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_width="354dp"
+        android:layout_height="610dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-195dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_first_name_label"
             android:textSize="16sp"
-            android:textColor="@color/white"
+            android:textColor="@color/greenFimDeFeira"
+
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextFirstName"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_user_first_name"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterName" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_last_name_label"
             android:textSize="16sp"
-            android:textColor="@color/white"
+            android:textColor="@color/greenFimDeFeira"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextLastName"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_user_last_name"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterSurname" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
             android:text="@string/signup_email_label"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            android:layout_marginBottom="4dp"/>
+            android:textColor="@color/greenFimDeFeira"
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextEmail"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_email"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterEmail"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_id_number_label"
             android:textSize="16sp"
-            android:textColor="@color/white"
+            android:textColor="@color/greenFimDeFeira"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextIdNumber"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_id_number"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterPassword"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_phone_label"
             android:textSize="16sp"
-            android:textColor="@color/white"
+            android:textColor="@color/greenFimDeFeira"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextPhone"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            android:hint="@string/signup_phone"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterPassword"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_password_label"
             android:textSize="16sp"
-            android:textColor="@color/white"
+            android:textColor="@color/greenFimDeFeira"
+
             android:layout_marginBottom="4dp"
             />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextPassword"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterPassword" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/signup_confirm_password_label"
             android:textSize="16sp"
-            android:textColor="@color/white"
+            android:textColor="@color/greenFimDeFeira"
             android:layout_marginBottom="4dp"/>
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/edtTextConfirmPassword"
+            style="@style/inputEmailCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/rounded_corners"
-            style="@style/InputTextStyle"/>
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enterPassword"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRegisterUser"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:background="@drawable/rounded_corners"
-            android:layout_marginTop="8dp"
-            android:text="@string/register_acc"
-            style="@style/WhiteButtonStyle"/>
+            style="@style/myButton"
+            android:textColor="@color/white"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/signUp" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

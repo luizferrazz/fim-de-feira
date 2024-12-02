@@ -4,13 +4,23 @@
     <string name="markets">Mercados</string>
 
     <!-- Tela de Login -->
-    <string name = "app_name">Fim de Feira</string>
+
     <string name="user_email">Email</string>
-    <string name="password">Senha</string>
+
     <string name="reset_password">Esqueceu a senha?</string>
     <string name="reset_email">Esqueceu seu e-mail?</string>
     <string name="login">Entrar</string>
     <string name="sign_up">Cadastra-se</string>
+
+    <string name="app_name">Seja bem vindo</string>
+    <string name="signUp">CRIAR CONTA</string>
+    <string name="email">E-mail*</string>
+    <string name="password">Digite sua senha</string>
+    <string name="singIn">ENTRAR</string>
+    <string name="forgotEmail">Esqueceu seu email?</string>
+    <string name="forgotPassword">Esqueceu sua senha?</string>
+    <string name="login_error">Usuário ou Senha Invalido</string>
+    <string name="register">Bem vinda a tela de registro</string>
 
     <!-- Tela de Cadastro -->
     <string name="signup_first_name_label">Primeiro Nome *</string>
@@ -26,6 +36,21 @@
     <string name="signup_password_label">Senha *</string>
     <string name="signup_confirm_password_label">Confirme sua Senha *</string>
     <string name="register_acc">Registrar</string>
+    <string name="enterPasswordConfirm">Confirme sua senha</string>
+
+
+    <string name="name">Nome*</string>
+    <string name="surname">Sobrenome*</string>
+    <string name="cpf">CPF*</string>
+    <string name="phoneNumber">Celular</string>
+    <string name="creating_account">Criando Conta</string>
+
+    <string name="enterName">Digite seu nome</string>
+    <string name="enterSurname">Digite seu sobrenome</string>
+    <string name="enterEmail">Digite seu Email</string>
+    <string name="enterCpf">Digite seu CPF</string>
+    <string name="enterPhoneNumber">Digite seu Celular</string>
+    <string name="enterPassword">Digite sua Senha</string>
 
     <!-- Tela de Busca -->
     <string name="search_label">Buscar Produto</string>

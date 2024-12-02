@@ -1,6 +1,6 @@
 package br.com.fim_de_feira.entities
 
-data class Address (
+abstract class Address (
     var street : String,
     var neighborhood : String,
     var number : Int,
