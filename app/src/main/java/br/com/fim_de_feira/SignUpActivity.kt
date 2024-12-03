@@ -55,5 +55,11 @@ class SignUpActivity : AppCompatActivity() {
                 Toast.makeText(this, getString(R.string.on_failure), Toast.LENGTH_SHORT).show()
             })
         }
+
+        binding.voltar.setOnClickListener(){
+            val intent = Intent(this@SignUpActivity, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
