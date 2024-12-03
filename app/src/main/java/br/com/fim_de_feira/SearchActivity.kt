@@ -1,5 +1,6 @@
 package br.com.fim_de_feira
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +24,12 @@ class SearchActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        binding.imageView4.setOnClickListener(){
+            val intent = Intent(this@SearchActivity, MainActivity::class.java)
+            startActivity(intent);
+            finish()
         }
     }
 }

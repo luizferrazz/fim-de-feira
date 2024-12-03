@@ -11,7 +11,7 @@
     <string name="login">Login</string>
     <string name="sign_up">Sign up</string>
 
-    <string name="app_name">Welcome to my app</string>
+    <string name="app_name"></string>
     <string name="signUp">Sign Up</string>
     <string name="email"> E-mail*</string>
     <string name="password"> Password</string>
@@ -50,8 +50,6 @@
     <string name="enterPassword">Digite sua Senha</string>
     <string name="enterPasswordConfirm">Confirme sua senha</string>
 
-
-
     <!-- Tela de Busca -->
     <string name="search_label">Search Product</string>
     <string name="products_label">Products</string>
@@ -73,5 +71,4 @@
     <string name="menu_search">Search</string>
     <string name="menu_service_orders">Service Orders</string>
     <string name="menu_logout">Logout</string>
-
 </resources>
