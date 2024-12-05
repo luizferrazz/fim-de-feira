@@ -13,19 +13,16 @@ import br.com.fim_de_feira.entities.Product
 class ProductAdapter(private val products: List<Product>) : RecyclerView.Adapter<ProductAdapter.ProductViewHolder>() {
 
     inner class ProductViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val productConsumeTextView: TextView = itemView.findViewById(R.id.productConsumeTextView)
-        val productLogoImageView: ImageView = itemView.findViewById(R.id.productLogoImageView)
+        val productPriceTextView: TextView = itemView.findViewById(R.id.productPriceTextView)
         val productNameTextView: TextView = itemView.findViewById(R.id.productNameTextView)
-        val productPriceTextView: TextView = itemView.findViewById(R.id.supermarketNeighborhoodTextView) // Assuming this displays price
-        val addToCartButton: AppCompatButton = itemView.findViewById(R.id.addToCartButton) // Assuming an ID for the button
         // ... outros TextViews para as demais informações do produto
 
         fun bind(product: Product) {
             // Carregar a imagem do produto (se tiver)
             // productImageView.setImageResource(product.imageResourceId)
 
-            productConsumeTextView.text = product.consumeDays.toString() + " dias para consumir"
             productPriceTextView.text = "R$ ${product.price}" // Formatação do preço
+            productNameTextView.text = "${product.name}" // Formatação do preço
 
             // ... setar o texto para outros TextViews
         }

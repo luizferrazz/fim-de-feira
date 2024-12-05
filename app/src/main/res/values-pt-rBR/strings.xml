@@ -11,11 +11,11 @@
     <string name="reset_email">Esqueceu seu e-mail?</string>
     <string name="login">Entrar</string>
     <string name="sign_up">Cadastra-se</string>
-    <string name="app_name"></string>
+    <string name="app_name">Fim de Feira</string>
     <string name="signUp">CRIAR CONTA</string>
     <string name="email">E-mail*</string>
     <string name="password">Digite sua senha</string>
-    <string name="singIn">ENTRAR</string>
+    <string name="signIn">ENTRAR</string>
     <string name="forgotEmail">Esqueceu seu email?</string>
     <string name="forgotPassword">Esqueceu sua senha?</string>
     <string name="login_error">Usuário ou Senha Invalido</string>

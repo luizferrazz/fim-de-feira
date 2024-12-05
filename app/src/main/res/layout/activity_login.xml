@@ -66,7 +66,7 @@
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:hint="@string/singIn" />
+        android:hint="@string/signIn" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSignup"

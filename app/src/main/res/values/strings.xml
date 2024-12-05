@@ -11,11 +11,11 @@
     <string name="login">Login</string>
     <string name="sign_up">Sign up</string>
 
-    <string name="app_name"></string>
+    <string name="app_name">Fim de Feira</string>
     <string name="signUp">Sign Up</string>
     <string name="email"> E-mail*</string>
     <string name="password"> Password</string>
-    <string name="singIn">Sing in</string>
+    <string name="signIn">Sign In</string>
     <string name="forgotEmail">Forgot email?</string>
     <string name="forgotPassword">Forgot Password?</string>
     <string name="login_error">Email or password invalid</string>

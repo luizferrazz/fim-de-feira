@@ -1,37 +1,45 @@
 [versions]
+# Android Gradle Plugin (AGP)
 agp = "8.5.2"
+# Kotlin versão
 kotlin = "1.9.0"
+# AndroidX Core KTX
 coreKtx = "1.13.1"
+# Testes Unitários
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
+# Bibliotecas UI
 appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.2"
 constraintlayout = "2.1.4"
 recyclerview = "1.3.2"
-firebase="4.4.1"
-firebaseBom="32.3.1"
-lifecycle_version = "2.8.7"
+# Firebase
+firebaseBom = "32.3.1"  # Firebase BOM
+firebaseFirestoreKtx = "24.9.1"  # Firestore KTX
 
 [libraries]
+# Core KTX
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+# JUnit para testes
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+# AppCompat e Material Design
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+# AndroidX Libraries
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
-firebase-bom = {group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom"}
-firebase-auth = {group = "com.google.firebase", name = "firebase-auth"}
-firebase-firestore = {group = "com.google.firebase", name = "firebase-firestore"}
-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle_version" }
-lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
+# Firebase Libraries
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
 
 [plugins]
+# Plugins necessários
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-googleService = { id = "com.google.gms.google-services", version.ref = "firebase" }
-
+googleService = { id = "com.google.gms.google-services", version = "4.4.1" }

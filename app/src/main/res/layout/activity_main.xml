@@ -29,19 +29,6 @@
             app:layout_constraintVertical_bias="0.01999998"
             app:navigationIcon="@drawable/ic_menu" />
 
-        <!--        <SearchView-->
-<!--            android:id="@+id/searchView"-->
-<!--            style="@style/search"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            app:layout_constraintBottom_toTopOf="@+id/descontosImage"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintHorizontal_bias="0.0"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent"-->
-<!--            app:layout_constraintVertical_bias="0.673"-->
-<!--            tools:ignore="MissingConstraints" />-->
-
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="180dp"
@@ -70,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="@string/markets"
+            android:text="@string/products_label"
             android:textColor="@color/dark_green"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -78,16 +65,18 @@
             app:layout_constraintTop_toBottomOf="@id/descontosImage" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/marketsRecyclerView"
-            android:layout_width="385dp"
-            android:layout_height="316dp"
+            android:id="@+id/productsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/marketsTextView"
-            app:layout_constraintVertical_bias="0.31"
-            tools:listitem="@layout/mkt_list_item" />
+            app:layout_constraintVertical_bias="0.307"
+            tools:listitem="@layout/prod_list_item" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView

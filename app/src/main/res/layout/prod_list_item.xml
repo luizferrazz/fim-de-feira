@@ -16,14 +16,6 @@
         android:layout_gravity="center"
         android:background="@drawable/rounded_corners">
 
-        <!-- Recomendação de consumo -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/productConsumeTextView"
-            android:text="Product.consumeDays"
-            style="@style/ProductConsumeTextStyle" />
-
         <!-- Logo do Produto -->
         <ImageView
             android:id="@+id/productLogoImageView"
@@ -43,7 +35,7 @@
 
         <!-- Valor do Produto -->
         <TextView
-            android:id="@+id/supermarketNeighborhoodTextView"
+            android:id="@+id/productPriceTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Product.price"
