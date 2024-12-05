@@ -25,3 +25,7 @@ Estamos desenvolvendo um pequeno marketplace com o objetivo de vender produtos p
 Um pouco mais do projeto você pode verificar no link do behance abaixo:
 
 [![Benance](  https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/gallery/172145347/Projeto-Academico-Fim-de-Feira)
+
+Link - Projeto Final
+
+[PROJETO FINAL - FIM DE FEIRA](https://youtu.be/Cn9U1ewt3ko).
